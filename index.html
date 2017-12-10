@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+			}
+			
+			.header-head{
+				width: 100%;
+				height: 86px;
+				background-color: white;
+				
+			}
+			.header-head .h-h-all{
+				width: 1260px;
+				height: 65.99px;
+				text-align: center;
+				margin: 20px auto;
+				
+				
+			}
+			.header-head .h-h-all>.h-h-a-left{
+				float: left;
+			}
+			.header-head .h-h-all .h-h-a-left>ul{
+				margin-top: 20px;
+			}
+			
+			.header-head .h-h-all .h-h-a-left>ul>li{
+				
+				display: inline-block;
+				font-size: 16px;
+				
+				margin-right: 20px;
+			}
+			.header-head .h-h-all .h-h-a-left>ul>li>a{
+				color: black;
+			}
+			.header-head .h-h-all .h-h-a-left>ul>li>a:hover{
+				color: limegreen;
+			}
+			
+			
+			.header-head .h-h-all .h-h-a-right{
+				width: 450px;
+				height: 40px;
+				float: right;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-top>.h-h-a-r-t-search{
+				float: right;
+				width: 254px;
+				height: 30px;
+				margin-left: 20px;
+				border: limegreen;
+				
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-top>.h-h-a-r-t-login{
+				float: right;
+				margin-left: 20px;
+				
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-top>.h-h-a-r-t-login>a{
+				color: black;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-top>.h-h-a-r-t-login:hover a{
+				color: limegreen;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-top>.h-h-a-r-t-login>a{
+				line-height: 30px;
+			}
+			.header-head .h-h-all .h-h-a-right>.h-h-a-r-top{
+				clear: both;
+				height: 36px;
+				text-align: center;
+				position: relative;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-t-download{
+				position: absolute;
+				top: 50%;
+				transform:translateY(-50%) ;
+				width: 80px;
+				text-align: center;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-t-download>img{
+				width: 12.99px;
+				height: 22px;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-t-download>span{
+				position: relative;
+				margin-left: 15px;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-t-download>span>div{
+				width: 333.99px;
+				height: 180px;
+				padding: 22.22px 18px;
+				background-color: white;
+				margin-top: 20px;
+				box-shadow: 0 1px 1px black;
+				display: none;
+				position: absolute;
+				left: 50%;
+				top: 0;
+				transform: translate(-50%,15%);
+				
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-t-download>span:hover div{
+				display: block;
+			}
+			.header-slide{
+				width: 100%;
+				height: 380px;
+				background-color: goldenrod;
+				
+			}
+			.header-school{
+				width: 100%;
+				height: 60px;
+				background-color: burlywood;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-bottom{
+				float: right;
+				clear: both;
+				margin-top: 25px;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-bottom>ul>li{
+				list-style: none;
+				float: right;
+				margin-left: 20px;
+				font-size: 15px;
+				position: relative;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-bottom>ul>li:hover{
+				color: limegreen;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-bottom>ul>li:hover ul{
+				display: block;
+				
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-bottom>ul>li>ul{
+				list-style: none;
+				background-color: white;
+				box-shadow: 0 2px 5px gray;
+				margin-top: 10px;
+				line-height: 20px;
+				width: 94px;
+				height: 53px;
+				padding: 15px;
+				text-align: center;
+				display: none;
+				position: absolute;
+				right: 0px;
+			}
+			.header-head .h-h-all .h-h-a-right .h-h-a-r-bottom>ul>li>ul>li{
+				margin-top: 8px;
+			}
+			
+			/*header>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+			
+			.section-reccourse{
+				width: 100%;
+				height: 421px;
+				background-color: greenyellow;
+			}
+			.section-excdiscuss{
+				width: 100%;
+				height: 300px;
+				background-color: cornflowerblue;
+			}
+			.section-seftdefine{
+				width: 100%;
+				height: 3426px;
+				background-color: darkkhaki;
+			}
+			.section-student{
+				width: 100%;
+				height: 560px;
+				background-color: antiquewhite;
+			}
+			/*section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+			.footer-top{
+				width: 100%;
+				height: 143px;
+				background-color: gray;
+			}
+			.footer-bottom{
+				width: 100%;
+				height: 40px;
+				
+			}
+			/*footer>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+			
+			
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="header-head" >
+				<div class="h-all">
+					<div class="h-h-a-left">
+						<img src="img/header-head-1.png" />
+						<ul>
+							<li><a href="#">课程</a></li>
+							<li><a href="#">名校</a></li>
+							<li><a href="#">学&nbsp;·&nbsp;问</a></li>
+							<li><a href="#">学校云</a></li>
+							<li><a href="#">考研</a></li>
+						</ul>
+					</div>
+					<div class="h-h-a-right">
+						<div class="h-h-a-r-top">
+							<div class="h-h-a-r-t-login">
+								<a href="#">登陆</a>&nbsp;|&nbsp;
+								<a href="#">注册</a>
+							</div>
+							<div class="h-h-a-r-t-search" style="position:relative;background-color: #ADFF2F;">
+								<input type="text" style="float:left;line-height:30px;width: 214px;height: 24px;padding:3px;outline: none;border:1px solid limegreen;" placeholder="探索感兴趣的课程"></input>
+								<input type="button" style="float:right;position:absolute; top:50%;right:0;transform:translateY(-50%);line-height:30px; border:none;outline: none;width: 36px;height: 32px;margin-top:1px;background-color: limegreen;" />
+								
+							</div>
+							<div class="h-h-a-r-t-download">
+								<img src="img/h-a-r-t-download1.png"/>
+								<span>客户端
+									<div>
+										<span>扫码下载官方App</span>
+										<img />
+										<div>
+											<a></a>
+											<a></a>
+										</div>
+									</div>
+								</span>
+							</div>
+						</div>
+						<div class="h-h-a-r-bottom">
+							<ul>
+								<li><span class="h-h-a-r-b-more">更多课程频道</span>
+									<ul >
+										<li><span style="color: black;">大学先修课</span></li>
+										<li><span style="color: black;">职业教育课程</span></li>
+									</ul>
+								</li>
+								<li>
+									<span style="color: limegreen;">网易云课堂</span>
+									
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-slide">
+				<div class="h-s-left">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class="h-s-l-more"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="h-s-center">
+					
+				</div>
+				<div class="h-s-right">
+					
+				</div>
+			</div>
+			<div class="header-school">
+			
+			</div>
+		</header>
+		<section>
+			<div class="section-reccourse">
+				
+			</div>
+			<div class="section-excdiscuss">
+			
+			</div>
+			
+			<div class="section-seftdefine">
+			
+			</div>
+			<div class="section-student">
+			
+			</div>
+		</section>
+		<footer>
+			<div class="footer-top">
+				
+			</div>
+			<div class="footer-bottom">
+				
+			</div>
+		
+		
+		
+		</footer>
+	</body>
+</html>
